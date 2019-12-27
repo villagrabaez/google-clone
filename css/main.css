@@ -1,0 +1,195 @@
+/*-------------------------------------------
+ *  Estilos generales
+ --------------------------------------------*/
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------------------
+ *  Estilos del header
+ -------------------------------------------*/
+
+header {
+  height: 60px;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  height: inherit;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  display: inherit;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  width: 250px;
+}
+
+header nav .nav-right-section a {
+  color: #000000;
+  margin-right: 10px;
+}
+
+header nav .nav-right-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+header nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/*--------------------------------------------------
+ *  Estilos del contenido
+ ---------------------------------------------------*/
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  height: 92px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  width: 272px;
+}
+
+main .main-logo img {
+  height: inherit;
+  width: inherit;
+}
+
+main .main-input {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  width: 530px;
+}
+
+main .main-input .main-input-container {
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 525px;
+}
+
+main .main-input .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .main-input-container input {
+  border: none;
+  height: 40px;
+  outline: none;
+  width: 450px;
+}
+
+main .main-input .search-icon,
+main .main-input .micro-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+}
+
+main .main-input .search-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+  margin-right: 10px;
+}
+
+main .main-input .micro-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+  cursor: pointer;
+}
+
+main .main-buttons {
+  margin: 0 auto;
+  width: 530px;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons div button {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+  margin-right: 5px;
+  /* outline: none; */
+  padding: 0 20px;
+}
+
+main .main-buttons div button:hover {
+  background-color: #f8f8f8;
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  color: #222;
+}
+
+/*-------------------------------------------------
+ *  Estilos de footer
+ --------------------------------------------------*/
+
+footer {
+  align-items: center;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  display: grid;
+  font-size: 13px;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+}
+
+footer ul {
+  margin: 10px;
+  display: flex;
+  padding-left: 0;
+}
+
+footer ul li {
+  /* margin: 10px; */
+  list-style: none;
+}
+
+footer ul li a {
+  color: #5f6368;
+  margin: 10px;
+}
+
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-right {
+  justify-self: right;
+}
